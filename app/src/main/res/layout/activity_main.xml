@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coloBGNormal"
+    android:fitsSystemWindows="true">
+
+    <com.example.heartmatch.view.SlidingMenu
+        android:id="@+id/sm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- left menu -->
+
+        <include layout="@layout/left" />
+
+        <!-- right contant -->
+
+        <include layout="@layout/content" />
+    </com.example.heartmatch.view.SlidingMenu>
+
+
+
+</RelativeLayout>
